@@ -25,7 +25,7 @@ import './bootstrap';
                 const targetElement = document.querySelector(targetId);
                 
                 if (targetElement) {
-                    const headerOffset = 120; // Adjust this value based on your navbar height
+                    const headerOffset = 0; // Adjust this value based on your navbar height
                     const elementPosition = targetElement.getBoundingClientRect().top;
                     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 

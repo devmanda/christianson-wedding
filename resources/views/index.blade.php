@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <section class="flex flex-col justify-center items-center h-full w-full pt-20">
+    <section id="top" class="flex flex-col justify-center items-center h-full w-full pt-20">
         <div class="flex flex-col sm:flex-row justify-center items-center"> 
             <h1 class="text-5xl sm:text-7xl" style="font-family: 'Unna', serif">Amanda</h1>
             <h1 class="text-4xl px-4" style="font-family: 'Unna', serif"> + </h1>

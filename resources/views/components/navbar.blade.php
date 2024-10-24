@@ -11,7 +11,7 @@
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
             <ul class="flex flex-col items-center justify-between p-4 md:p-0 mt-4 font-light border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-900 md:p-0">Amanda + Paul</a>
+                    <a href="#top" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-900 md:p-0">Amanda + Paul</a>
                 </li>
                 <li>
                     <a href="#story" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-900 md:p-0">Our Story</a>
@@ -35,26 +35,3 @@
         </div>
     </div>
 </nav>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Handle mobile menu toggle
-        const button = document.querySelector('[data-collapse-toggle="navbar-sticky"]');
-        const menu = document.getElementById('navbar-sticky');
-        
-        if (button && menu) {
-            button.addEventListener('click', () => {
-                menu.classList.toggle('hidden');
-            });
-
-            // Close mobile menu when a link is clicked
-            document.querySelectorAll('#navbar-sticky a').forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth < 768) { // Only on mobile
-                        menu.classList.add('hidden');
-                    }
-                });
-            });
-        }
-    });
-</script>

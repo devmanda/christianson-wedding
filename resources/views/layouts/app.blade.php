@@ -13,7 +13,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-        @vite('resources/css/app.css', 'resources/js/app.js')
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="h-full w-full bg-[#F4F1E1]">
         @include('components.navbar')
