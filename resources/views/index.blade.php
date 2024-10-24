@@ -17,8 +17,8 @@
         </div>
     </section>
 
-    <section class="w-full">
-        <div class="masonry pt-16 max-w-7xl m-auto">
+    <section class="flex justify-center items-center w-full">
+        <div class="masonry pt-16 max-w-7xl w-full m-auto">
             <img class="item item2" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-3.jpg">
             <img class="item item6" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-7.jpg">
             <img class="item item3" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-2.jpg">
@@ -57,8 +57,7 @@
                 <h4 class="pt-4 italic">Address<br>
                     725 Crest Street<br>
                     Rock Hill, SC 29730</h4>
-            </div>
-            <div class="p-4 sm:p-8">
+
                 <h3 class="font-bold mt-4 pt-9">Cocktail Hour & Reception</h3>
                 <h4>Our Home</h4>
                 <h4>Cocktail Hour - 6pm to 7pm</h4>

@@ -27,7 +27,7 @@ import './bootstrap';
                 if (targetElement) {
                     const headerOffset = 0; // Adjust this value based on your navbar height
                     const elementPosition = targetElement.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    const offsetPosition = elementPosition + window.scrollY- headerOffset;
 
                     window.scrollTo({
                         top: offsetPosition,
