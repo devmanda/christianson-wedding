@@ -15,11 +15,8 @@
 
         @vite('resources/css/app.css', 'resources/js/app.js')
     </head>
-    <body class="h-full w-full">
-        <div class="flex justify-center align-center pt-3 mt-3">
-            <div class="container">
-                @yield('content')
-            </div>
-        </div>
+    <body class="h-full w-full bg-[#F4F1E1]">
+        @include('components.navbar')
+        @yield('content')
     </body>
 </html>
