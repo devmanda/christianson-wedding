@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <img id="leftFlower" class="pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
-    <img id="rightFlower" class="pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
     <section id="top" class="flex flex-col justify-center items-center md:h-full md:w-full pt-20">
-        <div class="flex flex-col sm:flex-row justify-center items-center"> 
+        <img id="leftFlower" class="pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
+        <img id="rightFlower" class="pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
+        <div class="flex flex-col justify-center items-center"> 
             <h1 class="text-5xl sm:text-7xl" style="font-family: 'Unna', serif">Amanda</h1>
             <h1 class="text-4xl px-4" style="font-family: 'Unna', serif"> + </h1>
             <h1 class="text-5xl sm:text-7xl" style="font-family: 'Unna', serif">Paul</h1>
@@ -18,14 +18,14 @@
         </div>
     </section>
 
-    <section class="flex justify-center items-center w-[80%] mx-auto md:w-full">
+    <section class="flex justify-center items-center mx-auto w-full">
         <div class="masonry pt-16 max-w-7xl w-full m-auto">
-            <img class="item item2" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-3.jpg">
-            <img class="item item6" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-7.jpg">
-            <img class="item item3" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-2.jpg">
-            <img class="item item4" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-4.jpg">
-            <img class="item item5" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-5.jpg">
-            <img class="item item1" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/file.jpg">
+            <img class="item item2 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-3.jpg">
+            <img class="item item6 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-7.jpg">
+            <img class="item item3 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-2.jpg">
+            <img class="item item4 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-4.jpg">
+            <img class="item item5 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/cw-hp-5.jpg">
+            <img class="item item1 w-[80%] md:w-full" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/file.jpg">
         </div>
     </section>
 
@@ -38,8 +38,8 @@
     </section>
 
     <section id="events" class="flex flex-col justify-center items-center md:h-full w-full pt-12 md:pt-0 px-8 sm:px-0">
-        <img id="leftFlower2" class="pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
-        <img id="rightFlower2" class="pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
+        <img id="leftFlower2" class="overflow-x-hidden pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
+        <img id="rightFlower2" class="overflow-x-hidden pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
         <img class="h-24" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/leaf-divider.svg">
         <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">Wedding Events</h1>
         <div class="mt-8 w-[80%] md:max-w-3xl flex flex-col md:flex-row bg-gray-50 rounded-2xl drop-shadow-sm p-4">
@@ -135,16 +135,18 @@
         <a class="mt-12 rounded-lg bg-amber-900 px-8 py-2 shadow-md text-white" target="_blank" href="https://withjoy.com/amanda-and-paul-jun-25/registry">Our Registry</a>
     </section>
 
-    <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pb-48">
+    <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-12 md:pt-0 pb-48">
         <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP - Coming Soon!</h1>
         <div class="pt-8 max-w-2xl">
             <p class="text-center">RSVP'ing will become available when we send out the official invitations, around February 2025, so stay tuned!</p>
         </div>
     </section>
-    <div class="flex justify-center items-center bg-white text-sm">  
-        <img class="m-4 w-7 h-7" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/single-flower-header.svg">
-        <span class="text-gray-800 text-xs">
-        Site made with ♥️ by the bride.  <br> 
-       feature/marriage-june-2025: git commit -m "merge Amanda-main into Paul-main --no-conflicts --force-with-love"</span>
-    </div>
+    <section>
+        <div class="flex justify-center items-center bg-white text-sm p-4 md:p-0">  
+            <img class="m-4 w-7 h-7" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/single-flower-header.svg">
+            <span class="text-gray-800 text-xs">
+            Site made with ♥️ by the bride.  <br> 
+        feature/marriage-june-2025: git commit -m "merge Amanda-main into Paul-main --no-conflicts --force-with-love"</span>
+        </div>
+    </section>
 @endsection

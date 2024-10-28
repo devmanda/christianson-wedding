@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="h-full w-full overflow-x-hidden" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="h-full w-full" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +15,10 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="h-full w-full bg-[#F4F1E1]">
+    <body class="h-full w-full bg-[#F4F1E1] overflow-x-hidden relative">
+        <div class="h-full w-full mobile-only-styles">
             @include('components.navbar')
             @yield('content')
+        </div>
     </body>
 </html>

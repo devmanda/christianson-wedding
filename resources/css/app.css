@@ -12,6 +12,23 @@ html {
     grid-auto-rows: 10px;
     gap: 20px;
 }
+@media (max-width: 768px) {
+    .masonry {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 75px;
+    }
+
+    .mobile-only-styles {
+        overflow-x: hidden;
+        position: relative;
+        overflow-y: scroll;
+        height: 100%;
+    }
+}
 
 .item {
     background-color: #ffffff;
