@@ -1,5 +1,5 @@
 <nav class="transparent fixed md:w-full z-20 top-0 start-0 p-4">
-    <div class="max-w-screen-xl flex flex-wrap mx-auto md:p-6 border border-black bg-[#F4F1E1]">
+    <div class="max-w-screen-xl flex flex-wrap md:items-center md:justify-center mx-auto md:p-6 border border-black bg-[#F4F1E1]">
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black md:hidden hover:bg-gray-100 focus:outline-none focus:ring-1 focus:ring-gray-800" aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
