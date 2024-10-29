@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
+    <img id="leftFlower" class="pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
+    <img id="rightFlower" class="pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
     <section id="top" class="flex flex-col justify-center items-center md:h-full md:w-full pt-20">
-        <img id="leftFlower" class="pt-4 md:pt-0 -left-24 md:left-0 absolute -z-10 max-w-[200px] md:max-w-[400px]" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-left.svg">
-        <img id="rightFlower" class="pt-4 md:pt-0 -right-24 md:right-0 absolute -z-10 max-w-[200px] md:max-w-[400px] " src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/flower-pattern-right.svg">
         <div class="flex flex-col justify-center items-center"> 
             <h1 class="text-5xl sm:text-7xl" style="font-family: 'Unna', serif">Amanda</h1>
-            <h1 class="text-4xl px-4" style="font-family: 'Unna', serif"> + </h1>
+            <h1 class="text-4xl px-4" style="font-family: 'Unna', serif"> & </h1>
             <h1 class="text-5xl sm:text-7xl" style="font-family: 'Unna', serif">Paul</h1>
         </div>
         <div class="pt-4 text-center px-4 sm:px-0"> 
             <h2 class="text-xl sm:text-2xl font-light" style="font-family: 'Mulish', sans-serif">are getting married!</h2>
-            <div class="pt-8">
+            <div class="pt-8 px-12 md:px-0">
                 <h2 class="text-3xl sm:text-4xl" style="font-family: 'Unna', sans-serif"> June 7, 2025</h2>
                 <h2 class="text-3xl sm:text-4xl" style="font-family: 'Unna', sans-serif">Rock Hill, South Carolina</h2>
             </div>
@@ -126,16 +126,16 @@
         </div>
     </section>
 
-    <section id="registry" class="flex flex-col justify-center items-center h-full w-full pt-12 md:pt-0 px-8 sm:px-0">
+    <section id="registry" class="flex flex-col justify-center items-center md:h-full w-full pt-12 md:pt-0 px-8 sm:px-0">
         <img class="h-24" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/leaf-divider.svg">
-        <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">Wedding Registry</h1>
+        <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">Registry</h1>
         <div class="pt-8 max-w-3xl">
             <p class="text-center">Your presence on our special day is the best gift you can give to us. We are fully stocked with lots of kitchenware, home goods, and most items on a traditional registry. If you would like to contribute to our home projects or to our honeymoon plans, you can do so below or in person that weekend! We are very honored and grateful for any contributions.</p>
         </div>
         <a class="mt-12 rounded-lg bg-amber-900 px-8 py-2 shadow-md text-white" target="_blank" href="https://withjoy.com/amanda-and-paul-jun-25/registry">Our Registry</a>
     </section>
 
-    <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-12 md:pt-0 pb-48">
+    <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-24 md:pt-0 pb-24">
         <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP - Coming Soon!</h1>
         <div class="pt-8 max-w-2xl">
             <p class="text-center">RSVP'ing will become available when we send out the official invitations, around February 2025, so stay tuned!</p>

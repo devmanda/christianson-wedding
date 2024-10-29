@@ -2,7 +2,7 @@
 <html class="h-full w-full" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Christianson Wedding</title>
 
@@ -15,8 +15,8 @@
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="h-full w-full bg-[#F4F1E1] overflow-x-hidden relative">
-        <div class="h-full w-full mobile-only-styles">
+    <body class="h-full w-full bg-[#F4F1E1] scroll-container">
+        <div class="h-full w-full">
             @include('components.navbar')
             @yield('content')
         </div>

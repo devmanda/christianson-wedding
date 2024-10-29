@@ -26,13 +26,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (targetElement) {
                 const headerOffset = 0; // Adjust this value based on your navbar height
-                const elementPosition = targetElement.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.scrollY - headerOffset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
+                
+                // Use scrollIntoView with offset calculation
+                targetElement.scrollIntoView({ behavior: 'smooth' });
+                
+                // If you need the header offset, use setTimeout to adjust after scrollIntoView
+                if (headerOffset) {
+                    setTimeout(() => {
+                        window.scrollBy({
+                            top: -headerOffset,
+                            behavior: 'smooth'
+                        });
+                    }, 0);
+                }
             }
         });
     });
@@ -58,8 +64,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function animate() {
         // Calculate target positions
-        targetLeftPosition = window.scrollY * 0.1;
-        targetRightPosition = window.scrollY * -0.1;
+        const scrollContainer = document.querySelector('.scroll-container');
+        const scrollPosition = scrollContainer.scrollTop;
+        targetLeftPosition = scrollPosition * 0.1;
+        targetRightPosition = scrollPosition * -0.1;
 
         // Smoothly interpolate to target positions
         currentLeftPosition = lerp(currentLeftPosition, targetLeftPosition, smoothing);

@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
+*{
+    box-sizing: border-box;
 }
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    position: relative;
+    min-height: 100vh;
+  }
 
 .masonry {
     display: grid;
@@ -20,13 +30,6 @@ html {
         justify-content: center;
         align-items: center;
         padding-top: 75px;
-    }
-
-    .mobile-only-styles {
-        overflow-x: hidden;
-        position: relative;
-        overflow-y: scroll;
-        height: 100%;
     }
 }
 
