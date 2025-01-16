@@ -87,8 +87,7 @@
             <p class="text-center">We have a hotel block setup at Tru by Hilton in Rock Hill, <a class="text-emerald-800 underline" href="https://withjoy.com/amanda-and-paul-jun-25/hotelbooking/roomblock/73896543-33a3-4380-acfb-947d49fd3d03" target="_blank">click here to reserve</a>. 
                 Uber and Lyft are easier to use closer to Charlotte, but are possible in the downtown Rock Hill area. We would recommend having a car or some other transportation plans.</p>
         </div><br><br>
-        We also recommend the <a target="_blank" class="text-emerald-800 underline" href="https://www.choicehotels.com/south-carolina/rock-hill/cambria-hotels/sc579">Cambria Hotel, Rock Hill - University Center.</a> 
-                It's the newest hotel in Rock Hill and close to all of our events. They do not do hotel blocks or codes, but is reasonably priced. 
+        We also recommend the <a target="_blank" class="text-emerald-800 underline" href="https://www.choicehotels.com/south-carolina/rock-hill/cambria-hotels/sc579">Cambria Hotel, Rock Hill - University Center.</a> It's the newest hotel in Rock Hill and close to all of our events. They do not do hotel blocks or codes, but is reasonably priced. 
     </section>
 
     <section id="dress-code" class="flex flex-col justify-center items-center pt-12 md:pt-0 px-8 md:px-12">
