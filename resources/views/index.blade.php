@@ -138,7 +138,9 @@
     <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-24 md:pt-0 pb-24">
         <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP</h1>
         <div class="pt-8 max-w-2xl">
-            <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">CLICK HERE TO RSVP</a>
+            <p class="text-center">We would love to know if you'll be celebrating with us! Kindly let us know by May 4, 2025, so we can make sure to save you a seat. While we hope you can make it, we'll understand if we don't hear from you by then that you won't be able to join us.</p>
+        </div>
+            <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">RSVP Now</a>
         </div>
     </section>
     <section>
@@ -146,7 +148,7 @@
             <img class="m-4 w-7 h-7" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/single-flower-header.svg">
             <span class="text-gray-800 text-xs">
             Site made with ♥️ by the bride.  <br> 
-        feature/marriage-june-2025: git commit -m "merge Amanda-main into Paul-main --no-conflicts --force-with-love"</span>
+        feature/marriage-june-2025: git commit -m "merge Amanda-main into Paul-main --no-conflicts"</span>
         </div>
     </section>
 @endsection
