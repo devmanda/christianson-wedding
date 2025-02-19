@@ -29,7 +29,7 @@
                     <a href="#registry" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-900 md:p-0">Registry</a>
                 </li>
                 <li class="mt-8 md:mt-0">
-                    <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">RSVP NOW</a>
+                    <a href="#rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">RSVP</a>
                 </li>
             </ul>
         </div>
