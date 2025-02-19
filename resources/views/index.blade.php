@@ -140,7 +140,7 @@
         <div class="pt-8 max-w-2xl">
             <p class="text-center">We would love to know if you'll be celebrating with us! Kindly let us know by May 4, 2025, so we can make sure to save you a seat. While we hope you can make it, we'll understand if we don't hear from you by then that you won't be able to join us.</p>
         </div>
-            <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">RSVP Now</a>
+            <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="mt-12 rounded-lg bg-amber-900 px-8 py-2 shadow-md text-white">RSVP Now</a>
         </div>
     </section>
     <section>
