@@ -47,7 +47,7 @@
                 <h3 class="text-2xl sm:text-3xl" style="font-family: 'Mulish', sans-serif">Friday</h3>
                 <h4 class="mt-4 font-bold">Welcome Drinks</h4>
                 <h4>Hoppin' Rock Hill</h4>
-                <h4>8-11pm</h4>
+                <h4>8-10pm</h4>
                 <h4 class="pt-10 italic">Address<br>
                     110 Southern Street<br>
                     Rock Hill, SC 29730<br>
@@ -56,9 +56,9 @@
             <div class="p-6 sm:p-8 md:border-l-2">
                 <h3 class="text-2xl sm:text-3xl" style="font-family: 'Mulish', sans-serif">Saturday</h3>
                 <h3 class="font-bold mt-4">Ceremony</h3>
-                <h4>Glencairn Gardens<br>
+                <h4>Glencairn Garden<br>
                 Come See Me Fountain</h4>
-                <h4>5-5:30pm</h4>
+                <h4>Arrive by 5pm</h4>
                 <h4 class="pt-4 italic">Address<br>
                     725 Crest Street<br>
                     Rock Hill, SC 29730</h4>
@@ -66,8 +66,7 @@
                 <div class="p-4 sm:p-8">
                 <h3 class="font-bold mt-4 md:pt-9">Cocktail Hour & Reception</h3>
                 <h4>Our Home</h4>
-                <h4>Cocktail Hour - 6pm to 7pm</h4>
-                <h4>Reception - 7pm-11pm</h4>
+                <h4>Reception - 6pm-10pm</h4>
                 <h4 class="pt-4 italic">Address<br>
                     1950 Mount Holly Drive<br>
                     Rock Hill, SC 29730</h4>
@@ -137,9 +136,9 @@
     </section>
 
     <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-24 md:pt-0 pb-24">
-        <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP - Coming Soon!</h1>
+        <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP</h1>
         <div class="pt-8 max-w-2xl">
-            <p class="text-center">RSVP'ing will become available when we send out the official invitations, around February 2025, so stay tuned!</p>
+            <a href="https://withjoy.com/amanda-and-paul-jun-25/rsvp" target="_blank" class="text-white bg-amber-900 hover:bg-amber-800 focus:ring-4 focus:outline-none focus:ring-emerald-300 font-medium rounded-lg text-sm px-4 py-2 text-center">CLICK HERE TO RSVP</a>
         </div>
     </section>
     <section>
