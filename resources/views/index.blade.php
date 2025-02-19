@@ -136,6 +136,7 @@
     </section>
 
     <section id="rsvp" class="flex flex-col justify-center items-center px-4 sm:px-0 pt-24 md:pt-0 pb-24">
+        <img class="h-24" src="https://christiansonwedding.nyc3.cdn.digitaloceanspaces.com/leaf-divider.svg">
         <h1 class="text-5xl sm:text-7xl text-center" style="font-family: 'Unna', serif">RSVP</h1>
         <div class="pt-8 max-w-2xl">
             <p class="text-center">We would love to know if you'll be celebrating with us! Kindly let us know by May 4, 2025, so we can make sure to save you a seat. While we hope you can make it, we'll understand if we don't hear from you by then that you won't be able to join us.</p>
